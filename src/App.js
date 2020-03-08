@@ -6,6 +6,7 @@ import MonkeyLearn from 'monkeylearn';
 
 import Header from "./components/Header";
 import Home from './pages/home';
+import About from './pages/about';
 import './App.css';
 
 const propTypes = {
@@ -65,7 +66,10 @@ function App({   browserSupportsSpeechRecognition,
   return (
     <div className="App">
       <Header />
-      <Home />
+      <main>
+          <About />
+      </main>
+
     </div>
   );
 }
